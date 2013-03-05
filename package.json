@@ -23,7 +23,7 @@
     "synthetic-dom-events": "0.0.0",
     "through": "~2.2.1",
     "global": "~2.0.1",
-    "ancestors": "0.0.1"
+    "ancestors": "0.0.3"
   },
   "devDependencies": {
     "browservefy": "0.0.8",
