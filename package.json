@@ -1,0 +1,32 @@
+{
+  "name": "pointer-cursor",
+  "version": "0.0.0",
+  "description": "synthesized mouse cursor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"open localhost:9966/example.html\" && ./node_modules/.bin/browservefy example.js 9966 -- -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/pointer-cursor.git"
+  },
+  "keywords": [
+    "pointer-lock",
+    "pointer",
+    "cursor",
+    "browser"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "dependencies": {
+    "debounce": "0.0.1",
+    "synthetic-dom-events": "0.0.0",
+    "through": "~2.2.1",
+    "global": "~2.0.1",
+    "ancestors": "0.0.1"
+  },
+  "devDependencies": {
+    "browservefy": "0.0.8",
+    "interact": "0.0.2"
+  }
+}
