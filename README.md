@@ -49,6 +49,11 @@ the element representing the cursor.
 
 the element currently hovered.
 
+#### stream.constrain(shouldConstrain=true) -> Boolean
+
+set whether or not to constrain mouse movements. if setting to `true`, will recalculate
+window size and re-constrain the existing cursor.
+
 ## license
 
 MIT

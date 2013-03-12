@@ -28,8 +28,21 @@ function cursor(el, constrain, dohover) {
   stream.element = el
   stream.click = click
   stream.target = target
+  stream.constrain = set_constrain
 
   return stream
+
+  function set_constrain(tf) {
+    if(tf === undefined) {
+      tf = true
+    }
+
+    if(constrain) {
+      onresize()
+      constraints()
+    }
+    return constrain = tf
+  }
 
   function target() {
     var target = document.elementFromPoint(x-0.1, y-0.1)
