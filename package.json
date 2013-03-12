@@ -1,6 +1,6 @@
 {
   "name": "pointer-cursor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "synthesized mouse cursor",
   "main": "index.js",
   "scripts": {
